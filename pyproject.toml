@@ -5,6 +5,10 @@ description = ""
 authors = ["James Saxon <james@saxon.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+kfind = "scripts.kfind:main"
+
+
 [tool.poetry.dependencies]
 python = "^3.11"
 beautifulsoup4 = "^4.12.2"
